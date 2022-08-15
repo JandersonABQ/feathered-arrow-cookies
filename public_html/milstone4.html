@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PWP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="documentation/Style2.css">
+</head>
+
+<body>
+<span class="position-absolute trigger">
+    <!-- hidden trigger to apply 'stuck' styles -->
+</span>
+<!-- Navbar-->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+<!--Navbar End-->
+
+<!--Jumbotron-->
+    <div class="jumbotron text-center">
+        <div class="intro">
+            <img src="documentation/photos/logo-no-BG.png">
+            <h1>WE CREATE CUSTOM DESSERTS FOR ALL OCCASIONS</h1>
+            <button type="button" class="btn btn-outline-light">ORDER NOW</button>
+        </div>
+    </div>
+<!--Jumbotron End-->
+
+<!--Text area-->
+<div class="container text-center my-5">
+    <div class="row">
+        <div class="col">
+            <h1>LET US HELP YOU CELEBRATE ALL OF LIFE'S BEST MOMENTS</h1>
+            <h3>We specialize in creating custom desserts to elevate your parties' theme. We create for all types of events from baby showers, birthdays, graduations, retirements and everything in between. whatever you're celebrating our goal is to make your event a little more special.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Text area End-->
+
+<!--Video player-->
+<div id="video-player" class="container-fluid text-center my-5 bg-dark">
+    <div class="row">
+        <div class="col-md-4 my-3">
+            <img src="documentation/photos/video-pic-1.jpg" alt="vid pic" class="img-fluid">
+            <img src="documentation/photos/play-button.png"  class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter1">
+        </div>
+        <div class="col-md-4 my-3">
+            <img src="documentation/photos/video-pic-2.jpg"  class="img-fluid">
+            <img src="documentation/photos/play-button.png" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">
+        </div>
+        <div class="col-md-4 my-3">
+            <img src="documentation/photos/video-pic-3.jpg" class="img-fluid">
+            <img src="documentation/photos/play-button.png" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter3">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-dialog modal-dialog-centered">
+                <video width="100%" controls autoplay src="documentation/photos/FA-video-1.MOV">
+                </video>
+         </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalCenter2">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content align-items-center">
+            <video width="100%" controls autoplay src="documentation/photos/FA-video-2.MOV">
+            </video>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalCenter3">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content align-items-center">
+                <video width="100%" controls autoplay id="3videoplayer" src="documentation/photos/FA-video-3.MOV">
+                </video>
+        </div>
+    </div>
+</div>
+<!--Video Player End-->
+
+<!--Text Area 2-->
+<div class="container text-center">
+    <div class="row">
+        <div class="col my-5">
+            <h1>NEED SOME INSPIRATION?</h1>
+            <h3>CHECK OUT MORE OF OUR COOKIE COLLECTIONS</h3>
+        </div>
+    </div>
+</div>
+<!-- Text Area 2 End-->
+
+<!--Cookie Gallery-->
+
+<div class="container-fluid bg-dark text-center">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/birthday-sports-cookie.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/anniversary-cookie.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/baby-shower-cookie.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/engagement-cookie.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/graduation-cookie.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="documentation/photos/halloween-cookie-2.jpg">
+        </div>
+    </div>
+</div>
+<!--Cookie Gallery End-->
+
+<!--A
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

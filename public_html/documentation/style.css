@@ -4,7 +4,7 @@
     font-family: Cambria, Times, 'Times New Roman', serif;
 }
 .jumbotron{
-    background-image: url("photos/med-bg-logo.png");
+    background-image: url("photos/BG-no-logo.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -67,15 +67,19 @@
 
 }
 
-.contact-form{
-    background-image: url("photos/FA-logo2.jpg");
-    height: 40vh;
+#contact-form{
+    background: url("photos/FA-logo2.jpg") center center no-repeat;
+    width: 100%;
+    height: auto;
     background-color: #ffffff;
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
     border-radius: 0px!important;
 }
+.contact section{
+    background-image: url("photos/FA-logo2.jpg");
+    height: fit-content;
 
+}
 
 
 .footer{
