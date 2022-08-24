@@ -8,7 +8,7 @@ const Recaptcha = require('express-recaptcha').RecaptchaV2
 const formData = require("form-data")
 const Mailgun = require("mailgun.js")
 
-require('dotenv').config()
+//require('dotenv').config()
 
 //start express app
 const app: Application = express()
