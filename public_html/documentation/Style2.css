@@ -21,11 +21,11 @@
      padding-top: 170px;
  }
  .intro img {
-     width: 450px;
+     width: 420px;
  }
 #line1 {
     width:250px;
-    height: 2px;
+    min-height: fit-content;
     background: mediumpurple;
     margin: 30px auto;
 }
@@ -65,13 +65,13 @@
  }
  #text1 {
      background-image: url("photos/water-colors.jpg");
-     height: 60vh;
+     min-height: 60vh;
      width: 100%;
      background-position: center;
      background-size: cover;
  }
  #text1 {
-
+     min-height: auto;
      padding-top: 5rem;
      padding-bottom: 5rem;
 
@@ -79,9 +79,9 @@
 #glass-card1{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    position: absolute;
-    width: 650px;
-    height: 370px;
+    position: center;
+    min-width: auto;
+    min-height: auto;
     background: rgba(255,255,255,0.2);
     border-radius: 20px;
     border: 1px solid #ffffff;
@@ -92,26 +92,17 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: auto;
     background: rgba(255,255,255,0.2);
     pointer-events: none;
 }
- .video-pic {
+ #vid-1, #vid-2, #vid-3 {
      width: 100px;
-     height: 80px;
- }
- .play-btn {
-     width: 50px;
-     position: relative;
-     top: -50%;
-     cursor: pointer;
-     transition: 0.5s;
-     opacity: 1;
- }
- .video-col :hover .play-btn{
-     opacity: 1;
+    max-height: 10rem;
+     margin-bottom: 5rem;
  }
  #video-player{
+     min-height: 35rem;
      background-color: black;
  }
 .stuck .navbar.fixed-top {
@@ -143,8 +134,9 @@ background-color: rgba(255,255,255, .4);
     left:10%;
 }
 .card img {
+    margin-outside: 3rem;
     width: 100%;
-    height: auto;
+    height: 15rem;
 }
 .card-text{
     width: 100%;
@@ -165,76 +157,73 @@ background-color: rgba(255,255,255, .4);
 #vid-1{
     margin-top: 3rem;
 
-    height: 47%;
+    min-height: 15rem;
     width: 85%;
 }
 #vid-2 {
     margin-top: 3rem;
-    height: 45%;
+    min-height: 15rem;
     width: 85%;
 }
 #vid-3 {
     margin-top: 3rem;
-    height: 45%;
+    min-height: 15rem;
     width: 85%;
 }
 #video-player {
-    height: 35rem;
+   min-height: auto;
 }
 #text2 {
     background-image: url("photos/water-colors.jpg");
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     background-position: center;
     background-size: cover;
 }
 #text2 {
-    padding-left: 30rem;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-
+padding-top: 10rem;
 }
 #glass-card2{
-    padding-top: 2rem;
-    position: absolute;
-    width: 500px;
-    height: 200px;
+    padding-top: 3rem;
+    position: center;
+    min-width: 300px;
+    min-height: 200px;
     background: rgba(255,255,255,0.2);
     border-radius: 20px;
     border: 1px solid #ffffff;
 }
 #glass-card2::before {
     content: '';
-    position: absolute;
+    position: center;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     background: rgba(255,255,255,0.2);
     pointer-events: none;
 }
 #cookie-gallery{
     padding-top: 10rem;
-    height: 50rem;
+    min-height: auto;
     padding-bottom: 10rem;
 }
 #card1 {
-    height:17rem;
+    min-height: auto;
 }
 #card2 {
-    height: 17rem;
+    min-height: auto;
 }
 #card3 {
-    height: 17rem;
+    min-height: auto;
 }
 #card4 {
-    height: 17rem;
+    min-height: auto;
 }
 #card5 {
-    height: 17rem;
+    min-height: auto;
 }
 #card6 {
-    height: 17rem;
+    min-height: auto;
 }
 #cont-bg {
     background-image: url("photos/FA-logo2.jpg");
@@ -307,19 +296,6 @@ background-color: rgba(255,255,255, .4);
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-#row-vid {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-#col-vid1,
-#col-vid2,
-#col-vid3
-{
-    display: flex;
-    flex-direction: row;
-
 }
 @media all and (max-width: 500px){
 
